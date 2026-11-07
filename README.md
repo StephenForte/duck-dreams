@@ -1,6 +1,6 @@
 # Duck Dreams
 
-Every morning at 7:07 (Pacific), a scheduled Claude task writes a two-paragraph dream for Yellow Duck Sweater, the robot microduck trained at [microduck-challenges](https://github.com/StephenForte/microduck-challenges), and commits it here.
+Every morning at 4:37 (Pacific), a scheduled Claude task writes a two-paragraph dream for Yellow Duck Sweater, the robot microduck trained at [microduck-challenges](https://github.com/StephenForte/microduck-challenges), and commits it here.
 
 The dream is built from the duck's training runs on [Hugging Face](https://huggingface.co/YellowDuckSweater), the Menlo Park weather, its portfolio (SPCX, BTC, GE), the moon, and ideas sent in from the duck page.
 

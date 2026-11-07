@@ -288,7 +288,7 @@ footer a{color:var(--sweater)}
       catch(e2){$("date").textContent="Can't reach the dream log right now.";$("levels").innerHTML="";return}
     }
     renderLevels();
-    if(!nights.length){$("date").textContent="No dreams yet. The first one lands at 7 in the morning.";return}
+    if(!nights.length){$("date").textContent="No dreams yet. The first one lands before 5 in the morning.";return}
     const h=location.hash.slice(1);
     show(nights.some(n=>n.date===h)?h:nights[0].date);
   })();
