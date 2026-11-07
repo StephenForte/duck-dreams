@@ -1,0 +1,58 @@
+name: Draw the comic
+
+# Runs right after the morning task pushes a new latest.json, or by hand.
+# It never runs on pull requests, so the API key is not exposed to forks.
+on:
+  push:
+    branches: [main]
+    paths:
+      - latest.json
+      - scripts/make_comic.py
+      - .github/workflows/comic.yml
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Redraw today's comic even if it exists
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: comic
+  cancel-in-progress: false
+
+jobs:
+  draw:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: pip install --quiet openai pillow
+
+      - name: Draw
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          IMAGE_MODEL: ${{ vars.IMAGE_MODEL }}
+          FORCE: ${{ inputs.force && '1' || '0' }}
+        run: python scripts/make_comic.py
+
+      - name: Commit
+        run: |
+          git add comics
+          if git diff --cached --quiet; then
+            echo "No new comic."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Comic for $(python -c 'import json;print(json.load(open("latest.json"))["date"])')"
+          git pull --rebase origin main
+          git push
