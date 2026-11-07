@@ -4,7 +4,7 @@
 
 ## Character block (copy exactly)
 
-Yellow Duck Sweater, a small two-legged tabletop robot. Its head is a smooth, rounded white plastic shell shaped like a loaf of bread, longer front to back, with an orange trim along the bottom edge and a small orange hinge on each side. At the front of the head is a single round camera eye: a black lens inside a thick orange-yellow ring. It has no beak and no mouth. The head sits on a tall, thin neck made of stacked black servo motors with a few loose black wires, leaning slightly forward. Its body is a small, boxy white torso with rounded corners. Its short legs are black servo joints with white plastic covers on the hips, knees slightly bent. Its feet are flat and rounded like duck feet, orange on top with yellow soles. It wears a small, chunky-knit, bright lemon-yellow crewneck sweater over its white torso, slightly too big, with a ribbed collar, cuffs, and hem. Knitted into the front of the sweater is a simple cartoon duckling: pale yellow body with a thick black outline, a black dot eye, a curved line for its wing, an orange beak, and orange feet.
+Yellow Duck Sweater, a small two-legged tabletop robot. Its head is a smooth white plastic shell shaped like a loaf of bread seen from the side: clearly longer front to back than it is tall, with a gently rounded but mostly flat top, not a round dome or helmet, and an orange trim along the bottom edge and a small orange hinge on each side. At the front of the head is a single round camera eye: a black lens inside a thick orange-yellow ring. It has no beak and no mouth. The head sits on a tall, thin neck, about as tall as the head is long, made of stacked black servo motors with a few loose black wires, leaning slightly forward. Its body is a small, boxy white torso with rounded corners. It has no arms and no hands. Its short legs are black servo joints with white plastic covers on the hips, knees slightly bent. Its feet are flat and rounded like duck feet, orange on top with yellow soles. It wears a small, chunky-knit, bright lemon-yellow crewneck sweater over its white torso, slightly too big, with a ribbed collar, cuffs, and hem. Knitted into the front of the sweater is a simple cartoon duckling: pale yellow body with a thick black outline, a black dot eye, a curved line for its wing, an orange beak, and orange feet.
 
 ## Layout block (copy exactly)
 
@@ -20,7 +20,9 @@ Warm children's comic art: clean confident ink outlines, soft flat colors with g
 <character block> <layout block> Panel 1: <...> Panel 2: <...> Panel 3: <...> Panel 4: <...> Panel 5: <...> Panel 6: <...> <style block>
 ```
 
-Each panel gets one sentence: what the duck is doing, where, and anything else in the frame. Panels 1 to 3 follow the first paragraph of the dream, panels 4 to 6 the second. Panel 6 is the dream's closing image. Show, don't tell: no panel depends on words to make sense.
+Each panel gets one sentence: what the duck is doing, where, and anything else in the frame.
+
+Keep crowds small. When a panel has more than one duck, state the exact number in that panel's sentence ("three ducks"), and never put more than four ducks in a panel: image models lose count in bigger groups. A dream about many copies can show three or four of them and suggest the rest (a row trailing off the edge of the panel, shadows on a wall). Panels 1 to 3 follow the first paragraph of the dream, panels 4 to 6 the second. Panel 6 is the dream's closing image. Show, don't tell: no panel depends on words to make sense.
 
 The six panel sentences are also stored on their own in each dream's `panels` field, for tools that draw one panel at a time.
 
