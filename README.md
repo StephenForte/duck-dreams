@@ -11,7 +11,7 @@ The dream is built from the duck's training runs on [Hugging Face](https://huggi
 | `dreams/YYYY-MM-DD.json` | One dream per day |
 | `latest.json` | A copy of the newest dream, at a fixed URL |
 | `reference/microduck.png` | Photo of the real robot |
-| `reference/duck-visual.md` | The fixed character and style text every image prompt starts with |
+| `reference/duck-visual.md` | The fixed character, comic layout, and style text every image prompt is built from |
 
 Fixed URL for the newest dream:
 
@@ -27,7 +27,8 @@ https://raw.githubusercontent.com/StephenForte/duck-dreams/main/latest.json
   "mood": "crowded, then hopeful",
   "paragraphs": ["...", "..."],
   "text": "both paragraphs joined by a blank line",
-  "imagePrompt": "character block + scene + style block, ready for an image model",
+  "imagePrompt": "character + layout + six panels + style, ready for an image model",
+  "panels": ["one sentence per panel", "..."],
   "idea": null,
   "telemetry": {
     "moon": "waning crescent, 6%",
@@ -38,4 +39,4 @@ https://raw.githubusercontent.com/StephenForte/duck-dreams/main/latest.json
 }
 ```
 
-`imagePrompt` is the field to send to an image generator. Attach `reference/microduck.png` too if the tool takes a reference image.
+`imagePrompt` is the field to send to an image generator: it asks for a six-panel color comic of the dream. `panels` has the six panel descriptions on their own, for tools that draw one panel at a time. Attach `reference/microduck.png` too if the tool takes a reference image.
