@@ -2,6 +2,11 @@
   "nights": [
     {
       "date": "2026-11-07",
+      "mood": "sneaky, then triumphant",
+      "comic": false
+    },
+    {
+      "date": "2026-11-06",
       "mood": "crowded, then hopeful",
       "comic": true
     }

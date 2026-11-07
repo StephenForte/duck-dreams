@@ -20,7 +20,7 @@ from openai import OpenAI, BadRequestError, NotFoundError, PermissionDeniedError
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_MODELS = "gpt-image-2.5-flare,gpt-image-1"
+DEFAULT_MODELS = "gpt-image-2.5-sunburst,gpt-image-2.5-flare,gpt-image-1"
 SIZE = "1024x1536"  # portrait, fits a 2 x 3 grid
 REFERENCE_NOTE = (
     "The attached photo shows the real robot this character is based on. "
