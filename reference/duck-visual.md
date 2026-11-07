@@ -4,7 +4,7 @@
 
 ## Character block (copy exactly)
 
-Yellow Duck Sweater, a small two-legged tabletop robot. Its head is a smooth, rounded white plastic shell shaped like a loaf of bread, longer front to back, with an orange trim along the bottom edge and a small orange hinge on each side. At the front of the head is a single round camera eye: a black lens inside a thick orange-yellow ring. It has no beak and no mouth. The head sits on a tall, thin neck made of stacked black servo motors with a few loose black wires, leaning slightly forward. Its body is a small, boxy white torso with rounded corners. Its short legs are black servo joints with white plastic covers on the hips, knees slightly bent. Its feet are flat and rounded like duck feet, orange on top with yellow soles. It wears a small hand-knit mustard-yellow sweater over its white torso, slightly too big, with a rolled collar under the neck.
+Yellow Duck Sweater, a small two-legged tabletop robot. Its head is a smooth, rounded white plastic shell shaped like a loaf of bread, longer front to back, with an orange trim along the bottom edge and a small orange hinge on each side. At the front of the head is a single round camera eye: a black lens inside a thick orange-yellow ring. It has no beak and no mouth. The head sits on a tall, thin neck made of stacked black servo motors with a few loose black wires, leaning slightly forward. Its body is a small, boxy white torso with rounded corners. Its short legs are black servo joints with white plastic covers on the hips, knees slightly bent. Its feet are flat and rounded like duck feet, orange on top with yellow soles. It wears a small, chunky-knit, bright lemon-yellow crewneck sweater over its white torso, slightly too big, with a ribbed collar, cuffs, and hem. Knitted into the front of the sweater is a simple cartoon duckling: pale yellow body with a thick black outline, a black dot eye, a curved line for its wing, an orange beak, and orange feet.
 
 ## Style block (copy exactly)
 
@@ -18,5 +18,5 @@ Pick one moment from the dream, not the whole plot. Many copies of the duck are 
 
 ## Notes
 
-- The real robot does not wear a sweater. The sweater is part of the character, so it is always in the pictures.
+- The real robot does not wear a sweater. The sweater is part of the character, so it is always in the pictures. It is modeled on a real sweater: bright yellow chunky knit with a cartoon duckling on the front.
 - To change the art style, edit the style block here. The morning task reads this file each day.
