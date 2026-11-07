@@ -8,6 +8,7 @@ on:
     paths:
       - latest.json
       - scripts/make_comic.py
+      - scripts/build_index.py
       - .github/workflows/comic.yml
   workflow_dispatch:
     inputs:
@@ -44,15 +45,21 @@ jobs:
           FORCE: ${{ inputs.force && '1' || '0' }}
         run: python scripts/make_comic.py
 
+      # Still list the night even if drawing failed, so its text shows on the site.
+      - name: Update the nights index
+        if: ${{ !cancelled() }}
+        run: python scripts/build_index.py
+
       - name: Commit
+        if: ${{ !cancelled() }}
         run: |
-          git add comics
+          git add comics index.json
           if git diff --cached --quiet; then
-            echo "No new comic."
+            echo "Nothing new to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Comic for $(python -c 'import json;print(json.load(open("latest.json"))["date"])')"
+          git commit -m "Comic and index for $(python -c 'import json;print(json.load(open("latest.json"))["date"])')"
           git pull --rebase origin main
           git push
