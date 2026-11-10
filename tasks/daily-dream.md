@@ -20,7 +20,7 @@ Get today's date in America/Los_Angeles (use a current-time tool if you have one
 
 ## Step 3: Read recent dreams and the idea queue
 - ArtifactData query on "dreams" with order_by date desc, limit 7. These are RECENT DREAMS.
-- ArtifactData query on "ideas" with where ["used","==",false]. Pick the one with the smallest createdAt. That is TODAY'S IDEA (may be none). An 11-year-old wrote most of these. If the idea is unkind, scary in a real-world way, or not appropriate for a kid, don't use it; mark it used with "skipped": true and pick the next one.
+- ArtifactData query on "ideas" with where ["used","==",false]. Pick the one with the smallest createdAt. That is TODAY'S IDEA (may be none). A kid wrote most of these. If the idea is unkind, scary in a real-world way, or not appropriate for a kid, don't use it; mark it used with "skipped": true and pick the next one.
 
 ## Step 4: Write the dream
 
@@ -48,7 +48,7 @@ Get today's date in America/Los_Angeles (use a current-time tool if you have one
 Do not reuse the RECENT DREAMS' opening images, central metaphor, closing beat, or sentence structure. If the last few were anxious, lean playful, and the other way round.
 
 ### Rules
-- An 11-year-old reads these. Weird and a bit spooky is fine (the pit, the giant); no real danger, injury, romance, or grown-up topics. Write so a smart kid enjoys it and an adult does too, never babyish.
+- A kid reads these. Weird and a bit spooky is fine (the pit, the giant); no real danger, injury, romance, or grown-up topics. Write so a smart kid enjoys it and an adult does too, never babyish.
 - Exactly two paragraphs, 150 to 220 words total. No title, headers, bullets, or sign-off.
 - Paragraph one: the dream begins and gets strange. Paragraph two: it turns, escalates or softens, and ends on an image, not a moral.
 - Third person or close third, consistent tense.
@@ -79,7 +79,7 @@ Then read back "dreams"/DATE once to confirm it saved.
    {"date", "mood", "paragraphs", "text" (the two paragraphs joined with a blank line), "imagePrompt", "panels", "idea", "telemetry"}
 4. If dreams/DATE.json already exists with the same content, stop: nothing to do.
 5. Otherwise write it to dreams/DATE.json and also to latest.json (identical content). Do not touch any other file.
-6. Commit with the message "Dream for DATE" and `git push origin main`. If the push is rejected, `git pull --rebase origin main` and push once more.
+6. Set the commit author first (keeps personal email out of this public repo): `git config user.name "Stephen Forte"` and `git config user.email "2026451+StephenForte@users.noreply.github.com"`. Then commit with the message "Dream for DATE" and `git push origin main`. If the push is rejected, `git pull --rebase origin main` and push once more.
 7. Confirm the push landed: `git ls-remote origin main` must print the commit you just made.
 
 If ANY part of Step 6 fails, do not retry more than once. Record it: ArtifactData update "dreams"/DATE (pass its current version as if_version) with {"repoSyncError": "<which sub-step failed, and the exact error text, up to 500 characters>"}. If Step 6 succeeds and the document has a "repoSyncError" field, remove it with {"repoSyncError": {"__delete__": true}}. End your final message with one line: "GitHub: pushed <short sha>" or "GitHub: FAILED, <reason>".
