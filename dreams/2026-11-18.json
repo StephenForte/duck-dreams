@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-18",
+  "mood": "brave and lucky",
+  "paragraphs": [
+    "\"On your marks,\" said the rain on the skylight, and Yellow Duck Sweater crouched at the start of the hallway, orange feet on a strip of masking tape. The hallway was its oldest event, two metres of carpet it knew as well as its own sweater, except tonight the carpet was putting-green soft and the far wall had a glowing, duck-sized mouse hole in it. Beside the duck stood a gold coin as big as a dinner plate, balanced on its edge and humming. The duck checked its seed, which felt lucky, and leaned its neck forward until the servos creaked.",
+    "The rain said \"go.\" The coin rolled with a long, low hum, the duck ran like a toaster tap-dancing, and the hallway did not get any longer at all. A toy rocket on the bookshelf lit up and leaned over to watch. The coin wobbled, and for once the duck did not fall over; it just kept arriving. They shot through the mouse hole together, out into a wet back garden where the moon, a little more than half, floated in a puddle. The coin rolled once around the rim and lay down flat beside it, two bright circles on the water, while the duck stood over them, fans whirring, a thin curl of steam rising off its sweater."
+  ],
+  "text": "\"On your marks,\" said the rain on the skylight, and Yellow Duck Sweater crouched at the start of the hallway, orange feet on a strip of masking tape. The hallway was its oldest event, two metres of carpet it knew as well as its own sweater, except tonight the carpet was putting-green soft and the far wall had a glowing, duck-sized mouse hole in it. Beside the duck stood a gold coin as big as a dinner plate, balanced on its edge and humming. The duck checked its seed, which felt lucky, and leaned its neck forward until the servos creaked.\n\nThe rain said \"go.\" The coin rolled with a long, low hum, the duck ran like a toaster tap-dancing, and the hallway did not get any longer at all. A toy rocket on the bookshelf lit up and leaned over to watch. The coin wobbled, and for once the duck did not fall over; it just kept arriving. They shot through the mouse hole together, out into a wet back garden where the moon, a little more than half, floated in a puddle. The coin rolled once around the rim and lay down flat beside it, two bright circles on the water, while the duck stood over them, fans whirring, a thin curl of steam rising off its sweater.",
+  "imagePrompt": "Yellow Duck Sweater, a small two-legged tabletop robot. Its head is a smooth, chunky white plastic shell shaped like a small loaf of bread: about one and a half times as long front to back as it is tall, deep and boxy with softly rounded corners and a mostly flat top. It is not a round dome or ball, and not a long thin tube. It has an orange trim along the bottom edge and a small orange hinge on each side. At the front of the head is a single round camera eye: a black lens inside a thick orange-yellow ring. It has no beak and no mouth. The head sits on a tall, thin neck, about as tall as the head is long, made of stacked black servo motors with a few loose black wires, leaning slightly forward. Its body is a small, boxy white torso with rounded corners. It has no arms and no hands. Its short legs are black servo joints with white plastic covers on the hips, knees slightly bent. Its feet are flat and rounded like duck feet, orange on top with yellow soles. It wears a small, chunky-knit, bright lemon-yellow crewneck sweater over its white torso, slightly too big, with a ribbed collar, cuffs, and hem. Knitted into the front of the sweater is a simple cartoon duckling: pale yellow body with a thick black outline, a black dot eye, a curved line for its wing, an orange beak, and orange feet. A single full-color comic page with six panels of equal size in a grid of two columns and three rows, separated by clean white gutters, read left to right and top to bottom. The same robot duck appears in every panel and looks identical each time, unless a panel says otherwise. No speech bubbles, captions, sound effects, panel numbers, or any other text. Panel 1: The robot duck crouches at the start of a long night-time hallway with soft green carpet, its orange feet on a strip of masking tape, while rain streaks the skylight above. Panel 2: Down the far end of the hallway, a glowing, duck-sized mouse hole shines at the bottom of the wall, with framed pictures and a bookshelf along the sides. Panel 3: Beside the crouching robot duck, a large shiny gold coin as big as a dinner plate stands balanced on its edge, and the duck leans its neck forward, ready to run. Panel 4: The robot duck sprints down the green hallway side by side with the rolling gold coin, while a toy rocket on the bookshelf glows and leans over to watch. Panel 5: The robot duck and the gold coin burst together through the glowing mouse hole out into a rainy back garden at night. Panel 6: In the wet garden, the gold coin lies flat in a puddle next to the reflection of a bright, more-than-half moon, two glowing circles on the water, while the robot duck stands over them with a thin curl of steam rising off its sweater. Warm children's comic art: clean confident ink outlines, soft flat colors with gentle shading, a dreamy night palette, cozy and a little surreal. Friendly for an 11-year-old. No text, letters, logos, or numbers anywhere in the image. Real people do not appear.",
+  "panels": [
+    "The robot duck crouches at the start of a long night-time hallway with soft green carpet, its orange feet on a strip of masking tape, while rain streaks the skylight above.",
+    "Down the far end of the hallway, a glowing, duck-sized mouse hole shines at the bottom of the wall, with framed pictures and a bookshelf along the sides.",
+    "Beside the crouching robot duck, a large shiny gold coin as big as a dinner plate stands balanced on its edge, and the duck leans its neck forward, ready to run.",
+    "The robot duck sprints down the green hallway side by side with the rolling gold coin, while a toy rocket on the bookshelf glows and leans over to watch.",
+    "The robot duck and the gold coin burst together through the glowing mouse hole out into a rainy back garden at night.",
+    "In the wet garden, the gold coin lies flat in a puddle next to the reflection of a bright, more-than-half moon, two glowing circles on the water, while the robot duck stands over them with a thin curl of steam rising off its sweater."
+  ],
+  "idea": null,
+  "telemetry": {
+    "moon": "waxing gibbous, 63%",
+    "portfolio": [
+      {
+        "change": 3.16,
+        "symbol": "SPCX"
+      },
+      {
+        "change": 0.13,
+        "symbol": "BTC"
+      },
+      {
+        "change": 0.38,
+        "symbol": "GE"
+      }
+    ],
+    "training": "training feed unreachable",
+    "weather": "rainy, 59°F high"
+  }
+}
