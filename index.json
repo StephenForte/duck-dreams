@@ -1,6 +1,11 @@
 {
   "nights": [
     {
+      "date": "2026-11-18",
+      "mood": "brave and lucky",
+      "comic": true
+    },
+    {
       "date": "2026-11-17",
       "mood": "patient, then lifted",
       "comic": true
