@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-25",
+  "mood": "wobbly, then weightless",
+  "paragraphs": [
+    "Seat 23A has a window, a tray table and a seatbelt, and Yellow Duck Sweater can work exactly one of them, the window, by looking through it. The belt lies on the cushion in two halves, waiting for hands. Out on the wing, the jet engine clears its throat. A rocket goes past the glass the wrong way, tail first, down. Then the air turns lumpy. The cabin drops, catches itself, drops again, and a gold coin comes rolling down the aisle, picking up speed toward the back. Bad seed, the duck thinks, and grips the seat with both feet.",
+    "The next drop is a long one, and the seat goes down without it. The duck stays in the air, turning, waiting for the floor. Its 4,096 copies all know what comes after a tilt like this. Nothing comes. There is no floor to fall onto, and the duck completes a somersault it was never trained for. \"Wheee,\" it says, quietly, in case someone is scoring. The coin drifts up past its knees. So does a bag of pretzels, which opens. Above the cloud, the full moon fills the far window like a white plate. The duck hangs upside down beside the reading light, sweater bunched around its neck, while seven pretzels circle its head in slow, salty orbit."
+  ],
+  "text": "Seat 23A has a window, a tray table and a seatbelt, and Yellow Duck Sweater can work exactly one of them, the window, by looking through it. The belt lies on the cushion in two halves, waiting for hands. Out on the wing, the jet engine clears its throat. A rocket goes past the glass the wrong way, tail first, down. Then the air turns lumpy. The cabin drops, catches itself, drops again, and a gold coin comes rolling down the aisle, picking up speed toward the back. Bad seed, the duck thinks, and grips the seat with both feet.\n\nThe next drop is a long one, and the seat goes down without it. The duck stays in the air, turning, waiting for the floor. Its 4,096 copies all know what comes after a tilt like this. Nothing comes. There is no floor to fall onto, and the duck completes a somersault it was never trained for. \"Wheee,\" it says, quietly, in case someone is scoring. The coin drifts up past its knees. So does a bag of pretzels, which opens. Above the cloud, the full moon fills the far window like a white plate. The duck hangs upside down beside the reading light, sweater bunched around its neck, while seven pretzels circle its head in slow, salty orbit.",
+  "imagePrompt": "Yellow Duck Sweater, a small two-legged tabletop robot. Its head is a smooth, chunky white plastic shell shaped like a small loaf of bread: about one and a half times as long front to back as it is tall, deep and boxy with softly rounded corners and a mostly flat top. It is not a round dome or ball, and not a long thin tube. It has an orange trim along the bottom edge and a small orange hinge on each side. At the front of the head is a single round camera eye: a black lens inside a thick orange-yellow ring. It has no beak and no mouth. The head sits on a tall, thin neck, about as tall as the head is long, made of stacked black servo motors with a few loose black wires, leaning slightly forward. Its body is a small, boxy white torso with rounded corners. It has no arms and no hands. Its short legs are black servo joints with white plastic covers on the hips, knees slightly bent. Its feet are flat and rounded like duck feet, orange on top with yellow soles. It wears a small, chunky-knit, bright lemon-yellow crewneck sweater over its white torso, slightly too big, with a ribbed collar, cuffs, and hem. Knitted into the front of the sweater is a simple cartoon duckling: pale yellow body with a thick black outline, a black dot eye, a curved line for its wing, an orange beak, and orange feet. A single full-color comic page with six panels of equal size in a grid of two columns and three rows, separated by clean white gutters, read left to right and top to bottom. The same robot duck appears in every panel and looks identical each time, unless a panel says otherwise. No speech bubbles, captions, sound effects, panel numbers, or any other text. Panel 1: The duck sits in the window seat of an airplane cabin, small in the big seat, with an unbuckled seatbelt lying in two halves on the cushion beside it and grey clouds outside the oval window. Panel 2: The duck looks out of the oval airplane window at a jet engine under the wing that puffs out a small cloud of smoke, while a small rocket drifts downward tail first through the grey clouds beyond it. Panel 3: The airplane cabin tilts and shakes, and the duck grips the seat cushion with its orange feet while a large gold coin rolls on its edge down the aisle beside its row. Panel 4: The duck floats in mid-air above its empty airplane seat, turning slowly sideways, with the two loose halves of the seatbelt drifting up below it. Panel 5: The duck turns a somersault in the air in the middle of the airplane cabin, feet over head, while a gold coin and an open bag spilling pretzels float up beside it. Panel 6: The duck hangs upside down near the ceiling of the airplane cabin beside a small glowing reading light, its yellow sweater bunched up around its neck, with seven pretzels floating in a ring around its head and a big full moon in a clear dark-blue sky filling the window behind it. Warm children's comic art: clean confident ink outlines, soft flat colors with gentle shading, a dreamy night palette, cozy and a little surreal. Friendly for an 11-year-old. No text, letters, logos, or numbers anywhere in the image. Real people do not appear.",
+  "panels": [
+    "The duck sits in the window seat of an airplane cabin, small in the big seat, with an unbuckled seatbelt lying in two halves on the cushion beside it and grey clouds outside the oval window.",
+    "The duck looks out of the oval airplane window at a jet engine under the wing that puffs out a small cloud of smoke, while a small rocket drifts downward tail first through the grey clouds beyond it.",
+    "The airplane cabin tilts and shakes, and the duck grips the seat cushion with its orange feet while a large gold coin rolls on its edge down the aisle beside its row.",
+    "The duck floats in mid-air above its empty airplane seat, turning slowly sideways, with the two loose halves of the seatbelt drifting up below it.",
+    "The duck turns a somersault in the air in the middle of the airplane cabin, feet over head, while a gold coin and an open bag spilling pretzels float up beside it.",
+    "The duck hangs upside down near the ceiling of the airplane cabin beside a small glowing reading light, its yellow sweater bunched up around its neck, with seven pretzels floating in a ring around its head and a big full moon in a clear dark-blue sky filling the window behind it."
+  ],
+  "idea": "On an airplane",
+  "telemetry": {
+    "moon": "full, 99%",
+    "portfolio": [
+      {
+        "change": -5.65,
+        "symbol": "SPCX"
+      },
+      {
+        "change": -2.24,
+        "symbol": "BTC"
+      },
+      {
+        "change": -1.01,
+        "symbol": "GE"
+      }
+    ],
+    "training": "training feed unreachable",
+    "weather": "mostly sunny, 64°F high"
+  }
+}
